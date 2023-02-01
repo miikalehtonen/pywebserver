@@ -1,3 +1,21 @@
+# pywebserver
+A Python webserver made almost completely from scratch using just the socket library. This does not require any module installations to run.
+
+**Note**:  This is an experimental project only and should not be used for actual web projects. For actual projects, use Django, Flask, etc.
+
+## Features
+Currently supports just basic things. More features are coming later.
+- Simple paging system
+- Ability to handle different request methods (GET, POST, PUT, DELETE)
+- Return any content-type and HTTP status code
+- Custom host and port
+## Usage/Example
+You can either use 'main.py' demo script or build your own
+
+**main.py:**
+
+
+```python
 from socket_webserver import Socketserver
 import json
 
@@ -38,3 +56,6 @@ routes = {
 
 server.routes = routes  # Apply routes for server
 server.run()
+
+```
+
