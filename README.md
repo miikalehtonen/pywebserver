@@ -27,7 +27,7 @@ server.host = '127.0.0.1'
 server.port = 8080
 
 
-""" Two example functions to return response. Upper one returns simple json response and lower one returns html response
+""" Two example functions to return response. Upper one returns simple html response and lower one returns json response
     You could create something like views.py for handler functions and urls.py for routes
     'request' contains dictionary of all the request arguments currently supported """
 
